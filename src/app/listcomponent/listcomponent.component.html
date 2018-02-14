@@ -1,0 +1,17 @@
+<app-root></app-root>
+  listcomponent works!
+<ul>
+  <li>{{names[0]}}</li>
+  <li>{{names[1]}}</li>
+  <li>{{names[2]}}</li>
+  <li>{{names[3]}}</li>
+</ul>
+
+<ul>
+  <li *ngFor="let name of names">{{name}}</li>
+</ul>
+
+Names
+<ul>
+    <li *ngFor="let president of presidents">{{president.name}}{{president.term}}}</li>
+  </ul>
